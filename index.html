@@ -1,15 +1,331 @@
-https://sites.google.com/view/wubenjamin/home
-
 <!DOCTYPE HTML>
- 
-<meta charset="UTF-8">
-<meta http-equiv="refresh" content="1; url=https://sites.google.com/view/wubenjamin/home">
- 
-<script>
-  window.location.href = "https://sites.google.com/view/wubenjamin/home"
-</script>
- 
-<title>Page Redirection</title>
- 
-<!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-If you are not redirected automatically, follow the <a href='https://sites.google.com/view/wubenjamin/home'>link</a>
+<!--
+	Based on [ Stellar by HTML5 UP | html5up.net | @ajlkn ] and
+	[ Industrious by TEMPLATED | templated.co | @templatedco ]
+	Released for free under the CCA 3.0 license (html5up.net/license | templated.co/license)
+-->
+<html>
+	<head>
+		<title>Benjamin Wu | Home Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<!--<body>-->
+    <body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!--	<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>Benjamin Wu</h1>
+						<p>[Computational Astrophysicist]<br /></p>
+                        <video autoplay loop muted playsinline src="images/out_crop.mp4"></video>
+					</header>-->
+                
+		         <!-- Banner -->
+			         <section id="banner">
+                        <div class="inner" style="float:left">
+				        <h1>Benjamin Wu</h1>
+				        <p>[ Computational Astrophysicist ]<br /></p>
+                        </div>
+                        <video autoplay loop muted playsinline src="images/out_crop.mp4"></video>
+			         </section>
+
+				<!-- Nav -->
+					<nav id="nav">
+                        <h3><a href="#banner">Benjamin Wu</a></h3>
+						<ul>
+							<li><a href="#intro" class="active">About Me</a></li>
+							<li><a href="#first">Research</a></li>
+							<li><a href="#second">Conferences</a></li>
+                            <li><a href="#third">Outreach</a></li>
+							<!--<li><a href="#cta">Miscellaneous</a></li>-->
+                            <li><a href="#footer">Contact</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About Me</h2>
+										</header>
+										<p>Welcome! I'm currently a Postdoctoral Fellow researching star formation at the National Astronomical Observatory of Japan (NAOJ). I study the collapse of interstellar gas into star clusters by developing and running magnetohydrodynamics simulations on supercomputers. Using these multi-scale, multi-physics simulations, we can make predictions to compare with and better understand star-forming regions observed within galaxies. I'm especially interested the role of interstellar magnetic fields, turbulence, and shockwaves, particularly when external events trigger the formation of stars. </p>
+                                        <p>Previously, I completed my Ph.D. in Physics at the University of Florida and my B.S. in Physics and Mathematics at Duke University. When my head is not in the (molecular) clouds playing with computational fluids and star particles, you can find me on the rocks at a local climbing gym or in a hole-in-the-wall restaurant while traveling about Japan (and the world).</p>
+										<ul class="actions">
+											<li><a href="docs/CV_BenjaminWu_201804.pdf" class="button">Curriculum Vitae</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+								</div>
+							</section>
+
+		<!-- CTA -->
+		<!--	<section id="cta" class="wrapper">
+				<div class="inner">
+                    <h2> a </h2> </br>
+                    <h2> a </h2> </br>
+				</div>
+			</section> -->
+                        
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Research</h2>
+                                    <p>I use numerical simulations of astrophysical fluids to investigate the problem of how stars form. This fundamental process directs the evolution of galaxies, the structure of interstellar gas, and the creation of planetary systems. Despite its universal importance, our understanding of star formation is surprisingly limited due to the complex, nonlinear mechanisms at play within the interstellar medium (ISM). Gravity, turbulence, magnetic fields, stellar feedback, radiation, chemistry, and microphysical heating/cooling processes all influence how the available gas from molecular clouds collapses into stars. Below are some of my recent research highlights and scientific contributions.</p>
+								</header>
+								<ul class="features">
+									<li>
+                                        <span class="icon major image"><img src="images/research01.png" alt="" /></span>
+										<h3>Cluster-Forming Clumps</h3>
+										<blockquote>Most stars form in clusters from clumps within molecular clouds. Obtaining properties of clumps (e.g., densities, temperatures, velocities, magnetic fields) is observationally challenging and often reveals complex, multi-component structures. I have been developing sophisticated numerical models of gravitationally infalling and rotating clumps with turbulence, magnetic fields, and star formation (Wu et al., in prep).</blockquote>
+									</li>
+									<li>
+										<span class="icon major image"><img src="images/research02.png" alt="" /></span>
+										<h3>Numerical Star Formation</h3>
+										<blockquote>Numerical treatments of star formation using sub-grid models generally do not take magnetic pressure support into account when creating stars. We have developed new sub-grid star formation routines regulated via magnetic field criticality and have modeled the creation and early evolution of such star clusters (Wu et al. 2017b). This offers an additional avenue of comparison to young star clusters and their natal gas.</blockquote>
+									</li>
+									<li>
+										<span class="icon major image"><img src="images/research03.jpg" alt="" /></span>
+										<h3>Collision-Driven Turbulence</h3>
+										<blockquote>Cloud collisions are an attractive star cluster formation triggering mechanism due to the way they naturally accumulate large amounts of molecular gas into dense filamentary regions within short timescales. In addition to connecting galactic orbital dynamics at kiloparsec scales to star cluster formation at parsec scales and explaining the high dispersion in star formation efficiencies, they also may be a source of turbulence driving in molecular clouds (Wu, et al. 2018).</blockquote>
+									</li>
+									<li>
+										<span class="icon major image"><img src="images/research04.png" alt="" /></span>
+										<h3>Magnetic Field Signatures</h3>
+										<blockquote>The role of interstellar magnetic fields is not well-understood. However, increasing evidence suggests they may significantly influence molecular cloud evolution and thus star formation. Magnetic fields are central in our numerical framework, and we utilize novel magnetic polarization analysis methods as potential observational diagnostics (Wu et al. 2017a) which we can compare against dust polarization observations (e.g., Planck).</blockquote>
+									</li>
+									<li>
+										<span class="icon major image"><img src="images/research05.png" alt="" /></span>
+										<h3>Heating &amp; Cooling Functions</h3>
+										<blockquote>Accurately capturing the multi-phase nature of the ISM motivated the development of rigorous gas heating/cooling functions based on the chemistry and microphysics that occur in photo-dissociation regions (PDRs) (Wu et al. 2015). These improve upon more commonly used isothermal or polytropic equations of state by realistically modeling gas thermal properties, predicting atomic and molecular abundances, and tracers used to observationally characterize regions within the ISM.</blockquote>
+									</li>
+									<li>
+										<span class="icon major image"><img src="images/research06.png" alt="" /></span>
+										<h3>Line Emission Signatures</h3>
+										<blockquote>By coupling our heating/cooling functions with the numerical code, we can not only model various astrophysical scenarios, but also predict species abundances as well as key observational tracers (e.g., excitation levels of 13CO, 12CO, [CII], and [OI]). The ability to create self-consistent synthetic observations to directly compare to data is a key advantage of the heating/cooling functions and has resulted in determining new line diagnostics for cloud collision triggered star formation (e.g., Wu et al. 2015, 2017a; Bisbas et al. 2017, 2018).</blockquote>
+									</li>
+								</ul>
+								<footer class="major">
+									<ul class="actions">
+										<!--<li><a href="#" class="button">Research Portfolio</a></li>-->
+                                        <li><a href="docs/Biblio_BenjaminWu_201804.pdf" class="button">Full Publication List</a></li>
+                                        <li><a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=AST&db_key=PRE&qform=AST&arxiv_sel=astro-ph&arxiv_sel=cond-mat&arxiv_sel=cs&arxiv_sel=gr-qc&arxiv_sel=hep-ex&arxiv_sel=hep-lat&arxiv_sel=hep-ph&arxiv_sel=hep-th&arxiv_sel=math&arxiv_sel=math-ph&arxiv_sel=nlin&arxiv_sel=nucl-ex&arxiv_sel=nucl-th&arxiv_sel=physics&arxiv_sel=quant-ph&arxiv_sel=q-bio&sim_query=YES&ned_query=YES&adsobj_query=YES&aut_xct=YES&aut_logic=OR&obj_logic=OR&author=wu%2C+benjamin&object=&start_mon=&start_year=&end_mon=&end_year=&ttl_logic=OR&title=&txt_logic=OR&text=&nr_to_return=200&start_nr=1&jou_pick=ALL&ref_stems=&data_and=ALL&group_and=ALL&start_entry_day=&start_entry_mon=&start_entry_year=&end_entry_day=&end_entry_mon=&end_entry_year=&min_score=&sort=SCORE&data_type=SHORT&aut_syn=YES&ttl_syn=YES&txt_syn=YES&aut_wt=1.0&obj_wt=1.0&ttl_wt=0.3&txt_wt=3.0&aut_wgt=YES&obj_wgt=YES&ttl_wgt=YES&txt_wgt=YES&ttl_sco=YES&txt_sco=YES&version=1" class="button">ADS Database</a></li>
+									</ul>
+								</footer>
+							</section>
+                        
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Talks &amp; Conferences</h2>
+									<p>Listed below are some presentations I've given in the past and upcoming meetings I plan to attend.</p>
+								</header>
+                        
+                                <ul class="tab-links">
+                                    <li class="active"><a data-toggle="tab" href="#tab0">2015-Present</a></li>
+                                    <li><a data-toggle="tab" href="#tab1">2010-2014</a></li>
+                                </ul>
+
+                                <div class="tab-content">
+                                <div id="tab0" class="tab-pane fade in active">
+
+									<h3 style="text-align:left">Upcoming</h3>
+                                    <table>
+								        <tbody>
+                                            <tr><td>[2018/05]</td><td>Cloud-Cloud Collision Workshop, Nagoya, Japan</td></tr>
+                                            <tr><td>[2018/05]</td><td>Midwest Magnetic Fields Workshop, Madison, WI</td></tr>
+                                        </tbody>
+								    </table>
+                                    <h3 style="text-align:left">2018</h3>
+                                    <table>
+								        <tbody>
+                                            <tr><td>[2018/03/23]</td><td>High Mass Star Formation Workshop, Yamaguchi, Japan (contributed talk)</td></tr>
+                                            <tr><td>[2018/02/06]</td><td>Magnetic Fields or Turbulence: Which is the critical factor for the formation of stars and planetary disks?, Hsinchu, Taiwan (contributed talk)</td></tr>
+                                        </tbody>
+								    </table>
+									<h3>2017</h3>
+                                    <table>
+                                        <tbody>
+                                            <tr><td>[2017/11/08]</td><td>Division of Theoretical Astronomy Workshop, Mizusawa, Japan (contributed talk)</td></tr>
+                                            <tr><td>[2017/09/12]</td><td>Astronomical Society of Japan Fall Meeting, Sapporo, Japan (talk+poster)</td></tr>
+                                            <tr><td>[2017/08/12]</td><td>Star Formation in Different Environments: From Local Clouds to Distant Galaxies, Quy Nhon, Vietnam (contributed talk)</td></tr>
+                                            <tr><td>[2017/03/18]</td><td>Astronomical Society of Japan Spring Meeting, Fukuoka, Japan (contributed talk)</td></tr>
+                                            <tr><td>[2017/03/08]</td><td>NAOJ Theory Seminar, Mitaka, Tokyo, Japan (invited talk)</td></tr>
+                                            <tr><td>[2017/03/01]</td><td>Hiroshima Astrophysical Science Center, Hiroshima University, Hiroshima, Japan (invited talk)</td></tr>
+                                            <tr><td>[2017/02/27]</td><td>Research Center for Space and Cosmic Evolution, Ehime University, Matsuyama, Japan (invited talk)</td></tr>
+                                            <tr><td>[2017/02/01]</td><td>NAOJ ALMAJ Seminar, Mitaka, Tokyo, Japan (invited talk)</td></tr>
+                                        </tbody>
+                                    </table>
+									<h3>2016</h3>
+                                    <table>
+                                        <tbody>
+                                            <tr><td>[2016/06/15]</td><td>University of Florida Department of Physics, Gainesville, FL (Ph.D. defense)</td></tr>
+                                            <tr><td>[2016/05/23]</td><td>Star formation, Magnetic Fields, and Diffuse Matter in the Galaxy, Madison, WI (poster talk)</td></tr>
+                                            <tr><td>[2016/04/06]</td><td>From Stars to Massive Stars, Gainesville, FL (contributed talk)</td></tr>
+                                            <tr><td>[2016/02/22]</td><td>University of Florida Department of Physics Graduate Student Seminar, Gainesville, FL (contributed talk)</td></tr>
+                                            <tr><td>[2016/01/07]</td><td>American Astronomical Society 227th Meeting, Kissimmee, FL, (contributed dissertation talk)</td></tr>
+                                        </tbody>
+                                    </table>
+								    <h3>2015</h3>
+                                    <table>
+                                        <tbody>
+                                            <tr><td>[2015/10/21]</td><td>Astrophysical Simulation Workshop, Gainesville, FL, (invited talk)</td></tr>
+                                            <tr><td>[2015/09/11]</td><td>Astronomy Graduate Student Symposium, Gainesville, FL (contributed talk)</td></tr>
+                                            <tr><td>[2015/07/02]</td><td>30 Years of PhotoDissociation Regions, Asilomar, CA (poster talk; honorable mention)</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div id="tab1" class="tab-pane fade">
+								    <h3>2014</h3>
+                                    <table>
+                                        <tbody>
+                                            <tr><td>[2014/11/21]</td><td>University of Florida Department of Physics, Gainesville, FL  (Ph.D. candidacy)</td></tr>
+                                            <tr><td>[2014/11/11]</td><td>Filamentary Structure in Molecular Clouds, Charlottesville, VA (poster talk)</td></tr>
+                                            <tr><td>[2014/07/23]</td><td>NAOJ Colloquium, Mitaka, Tokyo, Japan (invited talk)</td></tr>
+                                            <tr><td>[2014/06/13]</td><td>JSPS Summer Program Symposium, Tokyo, Japan (poster talk)</td></tr>
+                                            <tr><td>[2014/02/17]</td><td>Impact of Galactic Structure on Star Formation, Sapporo, Japan (contributed talk)</td></tr>
+                                        </tbody>
+                                    </table>
+								    <h3>2013</h3>
+                                    <table>
+                                        <tbody>
+                                            <tr><td>[2013/08/30]</td><td>University of Florida Department of Astronomy Graduate Student Symposium, Gainesville, FL,  (contributed talk)</td></tr>
+                                            <tr><td>[2013/05/29]</td><td>NAOJ ALMAJ Seminar, Mitaka, Tokyo, Japan (invited talk)</td></tr>
+                                            <tr><td>[2013/05/24]</td><td>NAOJ Theory Seminar, Mitaka, Tokyo, Japan (invited talk)</td></tr>
+                                            <tr><td>[2013/04/03]</td><td>From Stars to Life, Gainesville, FL (poster talk)</td></tr>
+                                            <tr><td>[2013/02/15]</td><td>Florida Star &amp; Planet Formation Day, Gainesville, FL (contributed talk)</td></tr>
+								        </tbody>
+                                    </table>
+                                    <h3>2012</h3>
+                                    <table>
+                                        <tbody>
+                                            <tr><td>[2012/11/12]</td><td>Star Formation &amp; The Interstellar Medium, Berkeley, CA (poster talk)</td></tr>
+                                            <tr><td>[2012/08/24]</td><td>University of Florida Department of Astronomy Graduate Student Symposium, Gainesville, FL (contributed talk)</td></tr>
+                                            <tr><td>[2012/02/10]</td><td>Florida Star &amp; Planet Formation Day, Gainesville, FL (contributed talk)</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                </div>
+                            </section>                 
+                        
+                        
+						<!-- Third Section -->
+							<section id="third" class="main special">
+								<header class="major">
+									<h2>Outreach</h2>
+                                    <p>It is a privilege to share the excitement of astronomy and astrophysics with people of all ages and backgrounds wherever I go. Here are various public outreach events in which I have helped organize.</p>
+								</header>
+
+                                <div class="table-wrapper">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="image td"><img src="images/outreach01.png" alt="Mitaka Open House Day" /></span></td>
+                                                <td><strong>(2016-Present) <a href="https://www.nao.ac.jp/en/open-day/2016/">Mitaka Open House Day</a>, National Astronomical Observatory of Japan</strong><br />
+                                                This annual event highlights space science research and education from four leading institutes in Japan: NAOJ; the Astrobiology Center; the University of Tokyo; and the Graduate University for Advanced Studies (SOKENDAI). Thousands of guests from the greater Tokyo area visit NAOJ during this festive weekend event. I have assisted and maintained the 3D planetarium "4D2U" experience as an international staff member. (<a href="https://www.instagram.com/explore/tags/naojday/">#naojday</a>!)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="image td"><img src="images/outreach02.jpg" alt="After Hours Adventure: Star Party" /></span></td>
+                                                <td><strong>(2016) <a href="http://media.kennedyspacecenter.com/kennedy/news/after-hours-adventure-star-party-on-august-12-at-kennedy-space-center-visitor-complex.htm">After Hours Adventure: Star Party</a>, Kennedy Space Center Visitor Complex</strong><br />
+                                                This high profile event held at NASA's Kennedy Space Center combined educational astronomy and stargazing activities culminating with the peaking Perseid meteor shower. The UF Astronomy outreach team led interactive stations and set up telescopes for this family-friendly event exploring astronomy and space technology themes.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="image td"><img src="images/outreach03.jpg" alt="Springs and Stars" /></span></td>
+                                                <td><strong>(2016) <a href="https://www.astro.ufl.edu/outreach/Park_Stargazing.html">Springs and Stars</a>, various Florida state parks</strong><br />
+                                                In this series of outreach events established by the UF Astronomy outreach team, we utilize Florida state parks to provide inspirational, interactive, and educational astronomy and stargazing activities in order to connect with underserved rural areas. Access and engagement with science is for everyone!</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="image td"><img src="images/outreach04.jpg" alt="Starry Night" /></span></td>
+                                                <td><strong>(2011-2015) <a href="https://www.floridamuseum.ufl.edu/event/starry-night/">Starry Night</a>, Florida Museum of Natural History</strong><br />
+                                                The flagship outreach event run by the UF Astronomy Department, Starry Night provides an evening filled with astronomical activities including inflatable planetariums, 3D journeys through the galaxy, crawling through cosmic time, and much more. I've participated in building the exhibits, running the stations, and filming promotional content.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+							</section>
+                
+                
+						<!-- Get Started -->
+<!--							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Congue imperdiet</h2>
+									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions">
+										<li><a href="generic.html" class="button special">Get Started</a></li>
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+-->
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Contact</h2>
+							<p>Please feel free to reach out directly or connect via social media for any inquiries, requests, collaborations, opportunities, etc. </p>
+<!--							<ul class="actions">
+								<li><a href="#banner" class="button">Back to Top</a></li>
+							</ul>
+-->
+							<ul class="icons">
+                                <li><a href="https://www.linkedin.com/in/benjamin-wu-08b719b4/" class="icon fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/wubenjamin/" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<!--<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>-->
+							</ul>                            
+						</section>
+						<section>
+							<h2>Information</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+                                <dd>National Astronomical Observatory of Japan</dd>
+								<dd>2-21-1 Osawa  &bull; Mitaka, Tokyo 181-8588 &bull; Japan</dd>
+								<!--<dt>Phone</dt>
+								<dd>(XXX) XXX-XXXX</dd>-->
+								<dt>Email</dt>
+								<dd><a href="#">benwu.astro(at)gmail.com</a></dd>
+							</dl>
+						</section>
+						<p class="copyright">&copy; Benjamin Wu.  |  Updated: 2018.04  |  
+                            Design: <a href="https://html5up.net">HTML5 UP</a> + <a href="templated.co">TEMPLATED</a></p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+            <script>
+                function openConf(confName) {
+                    var i;
+                    var x = document.getElementsByClassName("conf");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    document.getElementById(confName).style.display = "block";  
+                }
+            </script>
+            <!--<script src="assets/js/jquery.tabs.js"></script>-->
+            <script src="assets/js/bootstrap.min.js"></script>
+	</body>
+</html>
