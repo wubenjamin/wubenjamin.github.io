@@ -182,4 +182,5 @@ interests:
 
 ## About Me
 
-Dr. Benjamin Wu is a data science manager whose team works on recommender systems at Capital One. He was previously a researcher using scientific computing and machine learning to solve problems in the fields of astrophysics and space exploration, spending time at NVIDIA, NASA, and NAOJ. He holds a PhD in Physics from the University of Florida and a BS in Physics and Mathematics from Duke University.
+Dr. Benjamin Wu is a data science manager whose team works on recommender systems at Capital One. He was previously a researcher using scientific computing and machine learning to solve problems in the fields of astrophysics and space exploration, having spent time at NVIDIA, NASA, and NAOJ. He holds a PhD in Physics from the University of Florida and a BS in Physics and Mathematics from Duke University. 
+Site still under construction :)
