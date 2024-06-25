@@ -51,19 +51,19 @@ interests:
   - Physics & Astronomy
 
 # education:
-#   - area: PhD Physics
-#     institution: University of Florida
-#     date_start: 2016-01-01
-#     date_end: 2020-12-31
+#   - area: PhD
+#     institution: XYZ
+#     date_start: YYYY-MM-DD
+#     date_end: YYYY-MM-DD
 #     summary: |
-#       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+#       Thesis on _thesis_. Supervised by [Prof X](https://example.com). 
 #     button:
 #       text: 'Read Thesis'
 #       url: 'https://example.com'
-#   - area: MS Physics
-#     institution: University of Florida
-#     date_start: 2016-01-01
-#     date_end: 2020-12-31
+#   - area: MS
+#     institution: XYZ
+#     date_start: YYYY-MM-DD
+#     date_end: YYYY-MM-DD
 #     summary: |
 #       GPA: 3.8/4.0
 
